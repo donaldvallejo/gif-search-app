@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/donaldvallejo/gif-search-app/issues"
   },
-  "homepage": "https://github.com/donaldvallejo/gif-search-app#readme"
+  "homepage": "https://github.com/donaldvallejo/gif-search-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
