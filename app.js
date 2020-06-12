@@ -9,6 +9,7 @@ const exphbs  = require('express-handlebars');
 
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
+app.use(express.static('public'));
 
 // Require tenorjs near the top of the file
 const Tenor = require("tenorjs").client({
